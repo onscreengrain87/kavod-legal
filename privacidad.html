@@ -41,7 +41,7 @@
 
   <section>
     <h2>Para qué los usamos</h2>
-    <p>Solo para que la app funcione: calcular tus rangos, progreso y racha, sugerir rutinas y mostrarte tu historial. No hacemos publicidad, no creamos perfiles comerciales y no vendemos ni rentamos tus datos.</p>
+    <p>Solo para que la app funcione: calcular tus rangos, progreso, racha y XP de liga, sugerir rutinas, responderte en el Coach y mostrarte tu historial. No hacemos publicidad, no creamos perfiles comerciales y no vendemos ni rentamos tus datos.</p>
   </section>
 
   <section>
@@ -51,7 +51,7 @@
 
   <section>
     <h2>Qué ven tus amigos</h2>
-    <p>Solo tu usuario, rango general y por músculo, tus mejores PRs (1RM estimado), tu volumen de la semana y tu racha. <strong>Nunca</strong> fotos, medidas, peso, comidas ni detalles de tus entrenos.</p>
+    <p>Tu usuario, rango general y por músculo, tus mejores PRs (1RM estimado), tu volumen de la semana y tu racha. Si dejas activado <em>Compartir actividad</em>, también ven tus logros recientes: entrenos terminados (nombre, kilos movidos y duración), PRs, subidas de rango y hazañas, y pueden darte 💪. <strong>Nunca</strong> fotos, medidas, peso corporal ni comidas.</p>
   </section>
 
   <section>
@@ -60,8 +60,23 @@
   </section>
 
   <section>
+    <h2>Ligas semanales</h2>
+    <p>Solo si te unes a una liga. Se envía tu XP de la semana (calculado en tu teléfono a partir de tus entrenos y cardio) y otros 29 participantes ven tu usuario y tu XP. Puedes salirte cuando quieras.</p>
+  </section>
+
+  <section>
+    <h2>Coach con IA</h2>
+    <p>Solo si lo usas y aceptas. Para responderte se envía tu pregunta, la conversación y un resumen de tu entrenamiento (perfil básico, rangos, 1RM estimados, racha y entrenos recientes) a Anthropic (Claude), que la procesa para generar la respuesta y no la usa para entrenar sus modelos. No se envían fotos, medidas ni comidas. Guardamos solo cuántos mensajes usas al día para aplicar el límite. No es consejo médico.</p>
+  </section>
+
+  <section>
+    <h2>Escáner de alimentos</h2>
+    <p>La cámara lee el código de barras en tu teléfono; solo el número del código se consulta en Open Food Facts (base de datos abierta) para traer la información nutricional. No se envía ningún dato tuyo.</p>
+  </section>
+
+  <section>
     <h2>Notificaciones</h2>
-    <p>Solo locales: el temporizador de descanso y los recordatorios que tú configuras. No enviamos notificaciones de marketing.</p>
+    <p>Solo locales: el temporizador de descanso, el entreno en curso y los recordatorios que tú configuras, y avisos cuando un amigo te da 💪. No usamos notificaciones de marketing.</p>
   </section>
 
   <section>
@@ -74,6 +89,8 @@
     <ul>
       <li><strong>Supabase:</strong> base de datos y almacenamiento del respaldo (solo si creas cuenta).</li>
       <li><strong>Google / Apple:</strong> inicio de sesión (solo si lo usas).</li>
+      <li><strong>Anthropic (Claude):</strong> respuestas del Coach con IA (solo si lo usas y aceptas).</li>
+      <li><strong>Open Food Facts:</strong> información nutricional por código de barras (solo se envía el número del código).</li>
       <li><strong>Expo (EAS):</strong> distribución de actualizaciones de la app; no recibe tus datos de entrenamiento.</li>
     </ul>
   </section>
